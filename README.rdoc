@@ -1,0 +1,24 @@
+== Prerequisites
+
+* Ruby 1.9.3 or greater http://www.ruby-lang.org/en/downloads/
+* Ruby Gems http://rubygems.org/
+
+== Configuration
+
+* gem install rspec
+* gem install selenium-webdriver
+* gem install capybara
+
+== Running commands
+
+* rspec spec
+* rspec spec --format documentation
+* rspec spec --format html --out results.html
+
+
+== Additional Documentation
+
+* http://relishapp.com/rspec
+* http://github.com/jnicklas/capybara (for actions such as click_link, click_button, etc...)
+* Good example of integration testing a non-Rails application with Capybara and Rspec http://testerstories.com/?p=30
+* Rails style coding guide https://github.com/bbatsov/rails-style-guide#rspec
